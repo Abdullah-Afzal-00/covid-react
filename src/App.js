@@ -9,7 +9,7 @@ function App() {
       .get("https://data.covid19india.org/data.json")
       .then((res) => {
         setData(res.data.statewise[0]);
-        console.log(data, "abc");
+        console.log(data, "abcdef");
       })
       .catch((e) => {
         console.log("error is found");
